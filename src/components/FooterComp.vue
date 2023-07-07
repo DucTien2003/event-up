@@ -173,7 +173,7 @@ const list = reactive([
 }
 
 .subscribe {
-  @include respond-to("mobile") {
+  @include respond-to("desktop") {
     width: 286px;
   }
 }
