@@ -173,7 +173,9 @@ const list = reactive([
 }
 
 .subscribe {
-  width: 286px;
+  @include respond-to("mobile") {
+    width: 286px;
+  }
 }
 
 .email {
